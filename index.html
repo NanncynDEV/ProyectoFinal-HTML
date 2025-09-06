@@ -9,8 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel = "stylesheet" href="./css/bootstrap.min.css">
     <link rel = "stylesheet" href="./css/app.css">
-     
-   
+  
     <style>
 
       p.Playfair {
@@ -37,46 +36,52 @@
     </header>
     
       
-  <nav class="navbar navbar-expand-lg bg-primary">
-    <div class="container-fluid">
-      <a class="navbar-brand text-white  href="#"><img src="./Img/bootstrap-solid.svg" width="30" height="30" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        
-        <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#">Linea Blanca</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Decoración</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Hogar y más</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Servicios </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Revista Dígital</a></li>
-                  <li><a class="dropdown-item" href="#">Localiza tu tienda</a></li>
-                  <li><a class="dropdown-item" href="#">Aviso de privacidad</a></li>
-                </ul>
-            </li>
-        </ul>
-              <nav class="navbar bg-body-primary">
-                <div class="container-fluid">
-                  <a class="navbar-brand">Buscar</a>
-                  <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Busqueda"/>
-                    <button class="btn btn-outline-info" type="submit">Buscar</button>
-                  </form>
-                </div>
-              </nav>
-      </div>
-</div>
+<nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container-fluid">
+    <!-- Logo -->
+    <a class="navbar-brand text-white" href="#">
+      <img src="./Img/bootstrap-solid.svg" width="30" height="30" alt="">
+    </a>
+
+    <!-- Botón colapsable -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menú y búsqueda -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <!-- Menú principal -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Linea Blanca</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Decoración</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Hogar y más</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Servicios
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Revista Digital</a></li>
+            <li><a class="dropdown-item" href="#">Localiza tu tienda</a></li>
+            <li><a class="dropdown-item" href="#">Aviso de privacidad</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- Barra de búsqueda responsiva -->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Busqueda">
+        <button class="btn btn-outline-light" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
 </nav>
 <section class ="hero-image">
   <div class ="d-flex flex-column">
